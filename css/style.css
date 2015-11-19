@@ -1,0 +1,85 @@
+/* Colors
+blue- #a2ded0
+red- #d64541
+white- #323232
+black- #f7fafe
+*/
+
+
+body{
+	background-color: #a2ded0;
+	color: #f7fafe;
+
+}
+
+.jumbotron{
+	background-image: url('../img/shop.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center -150px;
+	padding: 20%;
+	margin-top: -40px;
+}
+
+.jumbotron h1{
+	color: #f7fafe;
+	position: absolute;
+	/*left: 0;
+	top: 18px;*/
+	font-family: 'Raleeway', sans-serief;
+	padding-left: 20px;
+	font-weight: lighter;
+
+}
+
+.mission{
+	background-color: #323232;
+	color:#f7fafe;
+	margin-top: -30px;
+}
+
+.mission h3{
+	font-family: 'Raleway', sans-serief;
+	padding: 5% 10%;
+	text-align: center;
+	position: center;
+	font-size: 1.5em;
+	margin-top: -5px;
+	font-weight: normal;
+}
+
+.features{
+	padding: 5% 0;
+}
+
+.features p{ 
+font-family: "Muli", sans-serief;
+text-align: center;
+color: #323232;
+font-size: 1.2em;
+padding-top: 10px;
+}
+
+footer{
+	background-color: #d64541;
+	position: absolute;
+	width: 100%;
+}
+
+footer ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 2%;
+	float: right;
+}
+
+footer p {
+	float: left;
+	padding: 2%;
+}
+
+footer a, footer p{
+	color: #f7fafe;
+	vertical-align: middle;
+}
